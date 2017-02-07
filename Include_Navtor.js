@@ -174,33 +174,6 @@ document.write("</DIV> ");
 
 document.write("</DIV> ");
 
-
-/* Old navigation with Flash
-// Embed Navtor
-document.write("<br><br><br><br><br><br><br><br><br><br><br><br>");
-
-document.write("<OBJECT classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000");
-
- document.write("codebase=http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0");
-
- document.write("ID=NavtorWIDTH=175 HEIGHT=650>");
-
-document.write("<PARAM NAME=movie VALUE=Navtor.swf> ");
-document.write("<PARAM NAME=quality VALUE=autohigh> ");
-document.write("<PARAM NAME=bgcolor VALUE=#FFFFFF> ");
-document.write('<EMBED SRC="Navtor.swf"');
-
-  document.write(' swLiveConnect=FALSE WIDTH=175 HEIGHT=650');
-
-  document.write(' QUALITY=autohigh BGCOLOR=#FFFFFF');
-
-  document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
-document.write('</EMBED></OBJECT>');
-*/
-
-
-
-
 document.write("</DIV> ");
 document.write("<DIV class=TopBanner >");
 
@@ -310,40 +283,6 @@ document.write(" height=140 border=0 ></a>")
 document.write("<a href=http://www.arthurx.com><img src=https://lh5.googleusercontent.com/-qSdSVxZdWy4/Tp2dG5d8l-I/AAAAAAAAEhE/SHJU2ARSCRA/s370/ArthurX%2520_Logo.png WIDTH=370 HEIGHT=140 alt=ArthurX Art Music Architecture Logo /></a>");
 
 
-// Insert Flash ArthurX Art Music Architecture
-/* Old Flash
- document.write("\&nbsp;<OBJECT classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000");
-
- document.write("codebase=http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0");
-
- document.write('ID=Top_Choice WIDTH="300" HEIGHT="140">');
-
-  document.write("<PARAM NAME=movie VALUE=TopBanner_ArthurX_Art_Music_Architecture_300x140.swf> ");
-
-  document.write("<PARAM NAME=quality VALUE=autohigh> ");
-
-  document.write("<PARAM NAME=bgcolor VALUE=#FFFFFF> ");
-
-
-
-
-
- document.write('<EMBED SRC=\"TopBanner_ArthurX_Art_Music_Architecture_300x140.swf\"');
-
-  document.write(' swLiveConnect=FALSE WIDTH=\"300\" HEIGHT=\"140\"');
-
-  document.write(' QUALITY=autohigh BGCOLOR=#FFFFFF');
-
-  document.write(' TYPE=\"application/x-shockwave-flash\" PLUGINSPAGE=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\">');
-
-  document.write("</EMBED></OBJECT> \&nbsp;");
-*/
-
-
-
- 
-
-
 
 
 // Bethanien Right side
@@ -378,7 +317,7 @@ DoubleChequer[0] = Bethanien.length
 
 
 
-for(i=0; i<4; i++){
+for(i=0; i<7; i++){
 
 
 
