@@ -7,7 +7,7 @@ document.write("<br><br><br><br>");
 // additional buttons 1 line Home => arthurx.com
 document.write("<DIV class=button_holder_arthurx_com >");
 document.write("<DIV class=nav_arthurx_com  >");
-document.write("<a href=arthurx.com>&nbsp;ARTHURX.COM </a>  ");
+document.write("<a href=http://arthurx.com>&nbsp;ARTHURX.COM </a>  ");
 document.write("</DIV> ");
 document.write("</DIV> ");
 
