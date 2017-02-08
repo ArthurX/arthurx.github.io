@@ -55,19 +55,36 @@ a.imagelink:visited { background-color:transparent}
 a.imagelink:hover { background-color:transparent}
 
 
-/* Additional buttons under navigator */
+
+
+
+
+/* Additional buttons for navigator */
+
+
+
+
+/* Additional buttons Home => arthurx.com */
+div.button_holder_arthurx_com   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_arthurx_com   {width:166px;height:42px; background:#0019FC;  padding-left:4px; padding-top:10px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:16pt; font-style:bold;}
+div.nav_arthurx_com:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+
+
 /* Additional buttons Tulip */
 div.button_holder_Tulip   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
-div.nav_Tulip   {width:166px;height:42px; background:#0019FC; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
-font-size:27pt; font-style:bold;}
+div.nav_Tulip   {width:166px;height:42px;  background:#FF908E; padding-left:4px; padding-top:5px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:25pt; font-style:bold;}
 div.nav_Tulip:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
 /* Additional buttons Architecture_Video */
 div.button_holder_Architecture_Video    {width:170px;height:26px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
 
-div.nav_Architecture { float: left; width:84px; height:24px;background:#E5FF00; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
-font-size:13pt;}
+div.nav_Architecture { float: left; width:84px; height:24px;background:#E5FF00; border-top:3px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:12pt;}
 div.nav_Architecture:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 

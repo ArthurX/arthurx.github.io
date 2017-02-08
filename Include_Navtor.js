@@ -2,10 +2,20 @@
 // Buttons for navigation.
 document.write("<br><br><br><br>");
 // Buttons in html, css
-// additional buttons 1 line Tulip
+
+
+// additional buttons 1 line Home => arthurx.com
+document.write("<DIV class=button_holder_arthurx_com >");
+document.write("<DIV class=nav_arthurx_com  >");
+document.write("<a href=arthurx.com>&nbsp;ARTHURX.COM </a>  ");
+document.write("</DIV> ");
+document.write("</DIV> ");
+
+
+// additional buttons 1 line Tulip now Song+
 document.write("<DIV class=button_holder_Tulip >");
 document.write("<DIV class=nav_Tulip  >");
-document.write("<a href=TextParisAtNight.html>&nbsp;<b>Songs + </b></a>  ");
+document.write("<a href=TextParisAtNight.html>&nbsp;&nbsp;&nbsp;<b>Songs + </b></a>  ");
 document.write("</DIV> ");
 document.write("</DIV> ");
 
@@ -72,7 +82,7 @@ document.write("</DIV> ");
 document.write("<DIV class=button_holder_Elizabeth_Poems >");
 
 document.write("<DIV class=\" nav_Elizabeth \" >");
-document.write("<a href=StoryElizabeth.html>&nbsp;Elizabeth</a>  ");
+document.write("<a href=Contact.html>&nbsp;Elizabeth</a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_Poems \">");
@@ -85,7 +95,7 @@ document.write("</DIV> ");
 document.write("<DIV class=button_holder_Reactions_Contact >");
 
 document.write("<DIV class=\" nav_Reactions \" >");
-document.write("<a href=Reactions.html>&nbsp;Reactions</a>  ");
+document.write("<a href=Reactions.html>&nbsp;Reviews</a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_Contact \">");
@@ -117,7 +127,7 @@ document.write("<a href=MP3.html>&nbsp;<b>MP3</b></a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_News \">");
-document.write("<a href=News.html>&nbsp;&nbsp;&nbsp;News</a> ");
+document.write("<a href=index.html>&nbsp;&nbsp;&nbsp;News</a> ");
 document.write("</DIV> ");
 
 document.write("</DIV> ");
