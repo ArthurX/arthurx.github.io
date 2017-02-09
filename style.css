@@ -1,4 +1,4 @@
-BODY  { background: white; color: black ; font-family:"Times New Roman" ;font-size:14pt }
+BODY  { background: white; color: black ; font-family:"Times New Roman", Times, serif ;font-size:14pt }
 div.Navtor {position:absolute; left:1px; top:141px; width:250px; height:780px; z-index:4}
 div.Main {position:absolute; left:270px; top:141px; width:900px; height:1200px; z-index:2 ; text-align: center  }
 
@@ -10,8 +10,8 @@ div.Quote {position:absolute; left:1159px; top:141px; width:200px;  z-index:3 ;t
 div.GoogleAds {position:absolute; left:1150px; top:435px; width:160px; height:600px ;  z-index:3 }
 
 
-h1 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
-h2 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h1 { color: black ; font-family:"Times New Roman",  serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h2 { color: black ; font-family:"Times New Roman",  serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
 h3.photobody500 { color:white ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:18pt ;text-shadow: 4px 3px 10px #707070}
 p::first-letter { font-size: 250%; font-weight: bold;  }
 p::first-line { font-weight: bold; }
