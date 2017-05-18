@@ -2,10 +2,20 @@
 // Buttons for navigation.
 document.write("<br><br><br><br>");
 // Buttons in html, css
-// additional buttons 1 line Tulip
+
+
+// additional buttons 1 line Home => arthurx.com
+document.write("<DIV class=button_holder_arthurx_com >");
+document.write("<DIV class=nav_arthurx_com  >");
+document.write("<a href=http://arthurx.com>&nbsp;ARTHURX.COM </a>  ");
+document.write("</DIV> ");
+document.write("</DIV> ");
+
+
+// additional buttons 1 line Tulip now Song+
 document.write("<DIV class=button_holder_Tulip >");
 document.write("<DIV class=nav_Tulip  >");
-document.write("<a href=TextParisAtNight.html>&nbsp;<b>Songs + </b></a>  ");
+document.write("<a href=TextParisAtNight.html>&nbsp;&nbsp;&nbsp;<b>Songs + </b></a>  ");
 document.write("</DIV> ");
 document.write("</DIV> ");
 
@@ -72,7 +82,7 @@ document.write("</DIV> ");
 document.write("<DIV class=button_holder_Elizabeth_Poems >");
 
 document.write("<DIV class=\" nav_Elizabeth \" >");
-document.write("<a href=StoryElizabeth.html>&nbsp;Elizabeth</a>  ");
+document.write("<a href=Contact.html>&nbsp;Elizabeth</a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_Poems \">");
@@ -85,7 +95,7 @@ document.write("</DIV> ");
 document.write("<DIV class=button_holder_Reactions_Contact >");
 
 document.write("<DIV class=\" nav_Reactions \" >");
-document.write("<a href=Reactions.html>&nbsp;Reactions</a>  ");
+document.write("<a href=Reactions.html>&nbsp;Reviews</a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_Contact \">");
@@ -117,7 +127,7 @@ document.write("<a href=MP3.html>&nbsp;<b>MP3</b></a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_News \">");
-document.write("<a href=News.html>&nbsp;&nbsp;&nbsp;News</a> ");
+document.write("<a href=index.html>&nbsp;&nbsp;&nbsp;News</a> ");
 document.write("</DIV> ");
 
 document.write("</DIV> ");
@@ -173,33 +183,6 @@ document.write("<a href=Grim_Museum_Berlin.html>&nbsp;Museum&nbsp</a> ");
 document.write("</DIV> ");
 
 document.write("</DIV> ");
-
-
-/* Old navigation with Flash
-// Embed Navtor
-document.write("<br><br><br><br><br><br><br><br><br><br><br><br>");
-
-document.write("<OBJECT classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000");
-
- document.write("codebase=http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0");
-
- document.write("ID=NavtorWIDTH=175 HEIGHT=650>");
-
-document.write("<PARAM NAME=movie VALUE=Navtor.swf> ");
-document.write("<PARAM NAME=quality VALUE=autohigh> ");
-document.write("<PARAM NAME=bgcolor VALUE=#FFFFFF> ");
-document.write('<EMBED SRC="Navtor.swf"');
-
-  document.write(' swLiveConnect=FALSE WIDTH=175 HEIGHT=650');
-
-  document.write(' QUALITY=autohigh BGCOLOR=#FFFFFF');
-
-  document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
-document.write('</EMBED></OBJECT>');
-*/
-
-
-
 
 document.write("</DIV> ");
 document.write("<DIV class=TopBanner >");
@@ -310,40 +293,6 @@ document.write(" height=140 border=0 ></a>")
 document.write("<a href=http://www.arthurx.com><img src=https://lh5.googleusercontent.com/-qSdSVxZdWy4/Tp2dG5d8l-I/AAAAAAAAEhE/SHJU2ARSCRA/s370/ArthurX%2520_Logo.png WIDTH=370 HEIGHT=140 alt=ArthurX Art Music Architecture Logo /></a>");
 
 
-// Insert Flash ArthurX Art Music Architecture
-/* Old Flash
- document.write("\&nbsp;<OBJECT classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000");
-
- document.write("codebase=http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0");
-
- document.write('ID=Top_Choice WIDTH="300" HEIGHT="140">');
-
-  document.write("<PARAM NAME=movie VALUE=TopBanner_ArthurX_Art_Music_Architecture_300x140.swf> ");
-
-  document.write("<PARAM NAME=quality VALUE=autohigh> ");
-
-  document.write("<PARAM NAME=bgcolor VALUE=#FFFFFF> ");
-
-
-
-
-
- document.write('<EMBED SRC=\"TopBanner_ArthurX_Art_Music_Architecture_300x140.swf\"');
-
-  document.write(' swLiveConnect=FALSE WIDTH=\"300\" HEIGHT=\"140\"');
-
-  document.write(' QUALITY=autohigh BGCOLOR=#FFFFFF');
-
-  document.write(' TYPE=\"application/x-shockwave-flash\" PLUGINSPAGE=\"http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash\">');
-
-  document.write("</EMBED></OBJECT> \&nbsp;");
-*/
-
-
-
- 
-
-
 
 
 // Bethanien Right side
@@ -378,7 +327,7 @@ DoubleChequer[0] = Bethanien.length
 
 
 
-for(i=0; i<4; i++){
+for(i=0; i<7; i++){
 
 
 

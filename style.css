@@ -1,4 +1,4 @@
-BODY  { background: white; color: black ; font-family:"Times New Roman" ;font-size:14pt }
+BODY  { background: white; color: black ; font-family:"Times New Roman", Times, serif ;font-size:14pt }
 div.Navtor {position:absolute; left:1px; top:141px; width:250px; height:780px; z-index:4}
 div.Main {position:absolute; left:270px; top:141px; width:900px; height:1200px; z-index:2 ; text-align: center  }
 
@@ -10,8 +10,8 @@ div.Quote {position:absolute; left:1159px; top:141px; width:200px;  z-index:3 ;t
 div.GoogleAds {position:absolute; left:1150px; top:435px; width:160px; height:600px ;  z-index:3 }
 
 
-h1 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
-h2 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h1 { color: black ; font-family:"Times New Roman",  serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h2 { color: black ; font-family:"Times New Roman",  serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
 h3.photobody500 { color:white ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:18pt ;text-shadow: 4px 3px 10px #707070}
 p::first-letter { font-size: 250%; font-weight: bold;  }
 p::first-line { font-weight: bold; }
@@ -55,19 +55,36 @@ a.imagelink:visited { background-color:transparent}
 a.imagelink:hover { background-color:transparent}
 
 
-/* Additional buttons under navigator */
+
+
+
+
+/* Additional buttons for navigator */
+
+
+
+
+/* Additional buttons Home => arthurx.com */
+div.button_holder_arthurx_com   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_arthurx_com   {width:166px;height:42px; background:#0019FC;  padding-left:4px; padding-top:10px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:16pt; font-style:bold;}
+div.nav_arthurx_com:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+
+
 /* Additional buttons Tulip */
 div.button_holder_Tulip   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
-div.nav_Tulip   {width:166px;height:42px; background:#0019FC; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
-font-size:27pt; font-style:bold;}
+div.nav_Tulip   {width:166px;height:42px;  background:#FF908E; padding-left:4px; padding-top:5px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:25pt; font-style:bold;}
 div.nav_Tulip:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
 /* Additional buttons Architecture_Video */
 div.button_holder_Architecture_Video    {width:170px;height:26px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
 
-div.nav_Architecture { float: left; width:84px; height:24px;background:#E5FF00; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
-font-size:13pt;}
+div.nav_Architecture { float: left; width:84px; height:24px;background:#E5FF00; border-top:3px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:12pt;}
 div.nav_Architecture:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
@@ -105,7 +122,7 @@ div.nav_Pen:hover{background:white;
 /* Additional buttons Berlin */
 div.button_holder_Berlin   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
 div.nav_Berlin   {width:166px;height:42px; background:#0010F2; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
-font-size:30pt; font-style:bold;}
+font-size:27pt; font-style:bold;}
 div.nav_Berlin:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
@@ -120,7 +137,7 @@ div.nav_Biennale:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
 div.nav_Kristina  { float: right;width:84px; height:30px;background:#EF0E86; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
-font-size:18pt;   }
+font-size:16pt;   }
 div.nav_Kristina:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 20deg) }
 
@@ -222,6 +239,6 @@ div.nav_KunstHal  { float: left; width:84px; height:22px;background:#FCF436; bor
 div.nav_KunstHal:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 25deg) }
 
-div.nav_Grim_Museum  { float: right;width:84px; height:22px;background:#178592; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white;font-size:16pt;  }
+div.nav_Grim_Museum  { float: right;width:84px; height:22px;background:#178592; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white;font-size:15pt;  }
 div.nav_Grim_Museum:hover{background:white;
                          -webkit-transform: rotate3d(-1,1,1, 20deg) }
