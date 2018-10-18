@@ -7,7 +7,7 @@ document.write("<br><br><br><br>");
 // additional buttons 1 line Home => arthurx.com
 document.write("<DIV class=button_holder_arthurx_com >");
 document.write("<DIV class=nav_arthurx_com  >");
-document.write("<a href=http://arthurx.com>&nbsp;ARTHURX.COM </a>  ");
+document.write("<a href=https://arthurx.com>&nbsp;ARTHURX.COM </a>  ");
 document.write("</DIV> ");
 document.write("</DIV> ");
 
@@ -290,7 +290,7 @@ document.write(" height=140 border=0 ></a>")
 
 // Insert Image ArthurX Art Music Architecture
 
-document.write("<a href=http://www.arthurx.com><img src=https://lh5.googleusercontent.com/-qSdSVxZdWy4/Tp2dG5d8l-I/AAAAAAAAEhE/SHJU2ARSCRA/s370/ArthurX%2520_Logo.png WIDTH=370 HEIGHT=140 alt=ArthurX Art Music Architecture Logo /></a>");
+document.write("<a href=https://www.arthurx.com><img src=https://lh5.googleusercontent.com/-qSdSVxZdWy4/Tp2dG5d8l-I/AAAAAAAAEhE/SHJU2ARSCRA/s370/ArthurX%2520_Logo.png WIDTH=370 HEIGHT=140 alt=ArthurX Art Music Architecture Logo /></a>");
 
 
 
