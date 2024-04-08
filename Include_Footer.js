@@ -4,7 +4,7 @@ document.write('<br><br><br><hr/><div>');
 document.write('</div>');
 
 // contact
-document.write('<hr/><center><br><small><b><a href=index.html>Home</a>&nbsp; &nbsp;<a href=Contact.html>Contact</a> &nbsp; &nbsp; elizabeth@thescars.com &nbsp; &nbsp; 0031-6-14748466 <br> &copy; ArthurX ');
+document.write('<hr/><center><br><small><b><a href=index.html>Home</a>&nbsp; &nbsp;<a href=Contact.html>Contact</a> &nbsp; &nbsp; arthurx@gmail.com &nbsp; &nbsp; 0031-6-14748466 <br> &copy; ArthurX ');
 
 var curdate = new Date();
 var year = curdate.getYear();
